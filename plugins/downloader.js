@@ -1798,17 +1798,17 @@ UserFunction(
       let q = await yts(match);
       let resukt = q.all[0];
       let RTYPE =
-        "\t *Dark Shuter Md Beta*   \n\n*Title :* " +
+        "\t *🎤Dark Shuter Audio Dowloader🎤*   \n\n*Title :* " +
         resukt.title +
         "\nUrl : " +
         resukt.url +
-        "\n*Description :* " +
+        "\n*😼Description :* " +
         resukt.timestamp +
-        "\n*Views :* " +
+        "\n*⚡Views :* " +
         resukt.views +
-        "\n*Uploaded :* " +
+        "\n*🧑‍🔧Uploaded :* " +
         resukt.ago +
-        "\n*Author :* " +
+        "\n*🙋‍♂️Author :* " +
         resukt.author.name +
         "\n\n\n_Reply 1 To Video_ Or _1 document_\n_Reply 2 To Audio_ Or _2 document_";
       let IMGTYPE = await amdBuffer(resukt.thumbnail);
